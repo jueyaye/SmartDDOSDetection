@@ -151,4 +151,4 @@ Once ready the simulation can then be launched from within miniedit by selecting
 
 The simulation will run through the specified behaviors and generate the relevant datasets. Produced datasets can be found in the logs file which the application will produce if not currently available. Note, for large networks the simulation and dataset generation can take some time to complete.
 
-![Example miniedit running](https://github.com/jueyaye/SmartDDOSDetection/demo.png)
+![Example miniedit running](https://github.com/jueyaye/SmartDDOSDetection/blob/master/demo.png)
