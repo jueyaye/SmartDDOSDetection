@@ -1,0 +1,27 @@
+Just Client or Client + Server
+
+How many clients should be deployed (number or percentage). Only one server is ever deployed
+
+Distance between clients and server?
+
+How often should the module be run?
+
+When should the module first start running?
+
+What class is the module defined in?
+
+What default transport protocol should be used? TCP, UDP, custom/raw
+
+What default Internet protocol should be used? IPv4, IPv6, custom/raw
+
+
+Option to just run your own set of commands or own custom file on a client or server if they want.
+
+
+
+User can specify what modules they want, and can name modules we provide. Everything MUST have
+a default value, meaning users can stop at just saying they want to simulate a set of modules,
+or they can be specific
+
+
+Ideally we ship with A http request, an ICMP host, and one or two attackers

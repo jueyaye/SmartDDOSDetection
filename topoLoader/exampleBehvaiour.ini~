@@ -1,0 +1,13 @@
+[mod1]
+clients: 3
+client-script: HTTPClient.py
+client-hosts: h1,h2,h3
+servers: 2
+server-script: HTTPServer.py
+connections: single # or (all)
+
+runtime: 10
+start-delay: 3
+total-runs: 2
+downtime: 4 
+

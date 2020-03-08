@@ -1,0 +1,32 @@
+[mod1]
+clients: 3
+client-script: HTTPClient.py
+client-hosts: h1,h2,h3
+servers: 1
+server-script: HTTPServer.py
+server-hosts: h4
+preferred-server-port: 80
+
+runtime: 3
+start-delay: 18
+total-runs: 2
+downtime: 5
+
+traffic-class: 10
+
+[mod2]
+clients : 1
+client-script: UPDDNSFlood.py
+
+client-hosts: h1
+
+servers: 1
+server-hosts: h3
+
+
+runtime: 1
+start-delay: 20
+total-runs: 1
+downtime: 3
+
+traffic-class: 15
